@@ -1,0 +1,31 @@
+{
+  "__version__": "1.0.6",
+  "general": {
+    "designResolution": {
+      "width": 720,
+      "height": 1280
+    }
+  },
+  "physics": {
+    "collisionGroups": [
+      {
+        "index": 1,
+        "name": "PLAYER"
+      },
+      {
+        "index": 2,
+        "name": "ENEMY"
+      },
+      {
+        "index": 3,
+        "name": "OBSTACLE"
+      }
+    ],
+    "collisionMatrix": {
+      "0": 6,
+      "1": 13,
+      "2": 3,
+      "3": 2
+    }
+  }
+}
